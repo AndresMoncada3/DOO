@@ -11,10 +11,10 @@ const modelSchema = mongoose.Schema({
         require: true, 
     },
 
-    Correo: {
+    correo: {
         type: String,
         require: true, 
     }
 });
 
-module.exports = mongoose.model('models', modelSchema);
+module.exports = mongoose.model('model', modelSchema);
